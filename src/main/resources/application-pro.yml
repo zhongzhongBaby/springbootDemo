@@ -1,0 +1,33 @@
+################################################################################################
+#
+# 测试环境发布
+#
+################################################################################################
+
+# 端口配置
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+# mybatis 配置
+mybatis:
+  mapper-locations: classpath:mapping/*/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
+  type-aliases-package: com.pxxedu.businessregistration.entity  # 注意：对应实体类的路径
+  configuration:
+    call-setters-on-nulls: true
+
+# spring 基础配置
+spring:
+  # mysql 配置
+  datasource:
+  # 外网：rm-2ze8w9736lsaml6756o.mysql.rds.aliyuncs.com
+    url: jdbc:mysql://rm-2ze8w9736lsaml675.mysql.rds.aliyuncs.com:3306/business_registration?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true&allowMultiQueries=true
+    driverClassName: com.mysql.jdbc.Driver
+    username: sqladmin
+    password: IqNKU3vTh2BKrDr
+
+
+
+
+
