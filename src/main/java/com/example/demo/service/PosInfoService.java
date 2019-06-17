@@ -15,7 +15,6 @@ public class PosInfoService {
     @Autowired
     private PosInfoDao posInfoDao;
 
-    @ChangeDS(type="select")
     public List<PosInfoVo> findPosList(FindPosInfoReqeuset findPosInfoReqeuset) {
         List<PosInfoVo> posInfoVos=new ArrayList<>();
         posInfoVos.add((PosInfoVo)posInfoDao.findById(findPosInfoReqeuset.getId()));

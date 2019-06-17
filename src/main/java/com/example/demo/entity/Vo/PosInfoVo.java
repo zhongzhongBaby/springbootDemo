@@ -7,6 +7,9 @@ import java.util.Date;
 public class PosInfoVo   {
 
     private String id;
+
+
+
     private String posNumber;
     private Date updateDate;
     private String campusName;
@@ -78,6 +81,21 @@ public class PosInfoVo   {
 
     public void setPosStatusLabel(String posStatusLabel) {
         this.posStatusLabel = posStatusLabel;
+    }
+
+
+    @Override
+    public String toString() {
+        return "PosInfoVo{" +
+                "id='" + id + '\'' +
+                ", posNumber='" + posNumber + '\'' +
+                ", updateDate=" + updateDate +
+                ", campusName='" + campusName + '\'' +
+                ", campusId='" + campusId + '\'' +
+                ", remarks='" + remarks + '\'' +
+                ", posStatus='" + posStatus + '\'' +
+                ", posStatusLabel='" + posStatusLabel + '\'' +
+                '}';
     }
 
 

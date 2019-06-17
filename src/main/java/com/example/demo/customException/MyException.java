@@ -1,8 +1,11 @@
 package com.example.demo.customException;
 
+import com.example.demo.aop.Log;
+
 public class MyException extends RuntimeException{
     private String code;
     private String msg;
+    @Log
     public MyException(String code, String msg) {
         this.code = code;
         this.msg = msg;

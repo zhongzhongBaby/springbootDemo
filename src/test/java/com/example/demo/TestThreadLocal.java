@@ -1,9 +1,7 @@
 package com.example.demo;
 
+import com.example.demo.entity.Student;
 import org.junit.Test;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class TestThreadLocal  implements  Runnable{
     ThreadLocal studentLocal = new ThreadLocal();

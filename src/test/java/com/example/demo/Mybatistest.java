@@ -21,7 +21,6 @@ public class Mybatistest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         //从 XML 中构建 SqlSessionFactory
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
-
         SqlSession session = sqlSessionFactory.openSession();
         try {
             PosInfoDao posInfoDao = session.getMapper(PosInfoDao.class);

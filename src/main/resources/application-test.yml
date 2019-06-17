@@ -26,6 +26,15 @@ spring:
     username: root
     password: PXXyqx@2017
 
+  # redis 配置
+redis:
+  database: 15
+  host: 192.168.1.201
+  port: 6379
+  password: 123456
+
+
+
 
 
 
