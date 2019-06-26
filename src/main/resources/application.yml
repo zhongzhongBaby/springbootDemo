@@ -1,6 +1,12 @@
 spring:
   profiles:
     active: test
+#配置日志
+logging:
+  #配置日志文件路径
+  file: log\myspringboot.log
+  level:
+    com.example.demo.dao: DEBUG
 
 
 

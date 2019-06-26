@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.DemoApplication;
 import com.example.demo.aop.Log;
 import com.example.demo.customException.MyException;
 import com.example.demo.entity.Vo.PosInfoVo;
@@ -14,6 +15,7 @@ import jxl.format.UnderlineStyle;
 import jxl.read.biff.BiffException;
 import jxl.write.*;
 import jxl.write.Number;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -29,6 +31,7 @@ import java.util.*;
 @RestController //RestController = response + controller
 @RequestMapping(value = "/demo")
 public class HomeController {
+
     @Autowired
     private PosInfoService posInfoService;
 
