@@ -122,6 +122,16 @@
             <version>3.16</version>
         </dependency>
 
+        <!--quartz 实现定时任务-->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+        </dependency>
+
+
+
+
     </dependencies>
     <build>
         <plugins>
