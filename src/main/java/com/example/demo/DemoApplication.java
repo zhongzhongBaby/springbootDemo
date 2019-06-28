@@ -13,6 +13,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @SpringBootApplication
 public class DemoApplication {
 
+
 	private static Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 	public static void main(String[] args) {
 		logger.error("demo project are  running +++++++++++++++++++++++++");
