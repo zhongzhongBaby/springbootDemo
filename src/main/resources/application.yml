@@ -8,6 +8,17 @@ logging:
   level:
     com.example.demo.dao: DEBUG
 
+ckeditor:
+  storage:
+    image:
+      path: G:\\upload\\
+  access:
+    image:
+      url: http://localhost:8080/public/image/
+
+
+
+
 
 
 

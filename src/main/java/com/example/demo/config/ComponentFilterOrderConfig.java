@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 
 
-@Configuration
+//@Configuration
 public class ComponentFilterOrderConfig {
     @Bean
     public AuthFilter MyHiddenHttpMethodFilter() {

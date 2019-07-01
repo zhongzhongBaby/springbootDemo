@@ -17,6 +17,7 @@ import jxl.write.*;
 import jxl.write.Number;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -28,7 +29,7 @@ import java.net.URLEncoder;
 import java.util.*;
 
 
-@RestController //RestController = response + controller
+@Controller //RestController = response + controller
 @RequestMapping(value = "/demo")
 public class HomeController {
 
@@ -37,6 +38,7 @@ public class HomeController {
 
     @Log
     @RequestMapping("/home")
+    @ResponseBody
     public String home() throws Exception {
 //        throw new Exception("系统错误");
         Thread.sleep(4000);
@@ -48,6 +50,7 @@ public class HomeController {
 
 
     @RequestMapping(value = "/findPosList",method = RequestMethod.POST)
+    @ResponseBody
     public ResponseBase findPosList(@RequestBody FindPosInfoReqeuset findPosInfoReqeuset){
         ResponseBase responseBase = new ResponseBase();
         List<PosInfoVo> list=new ArrayList<>();
