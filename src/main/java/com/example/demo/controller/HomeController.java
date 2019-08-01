@@ -18,7 +18,7 @@ public class HomeController {
     @ResponseBody
     public String home() throws Exception {
 //        throw new Exception("系统错误");
-        Thread.sleep(4000);
+        //Thread.sleep(4000);
         throw new MyException("101", "自定义错误hahhahahahhaha");
     }
 
