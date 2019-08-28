@@ -7,7 +7,7 @@ import java.sql.*;
 public class JdbcTest {
 
     @Test
-    public void testhaha() throws Exception {
+    public void testhaha() {
         //声明Connection对象
         Connection con;
         //驱动程序名
@@ -38,8 +38,8 @@ public class JdbcTest {
             System.out.println("姓名" + "\t" + "职称");
             System.out.println("-----------------");
 
-            String job = null;
-            String id = null;
+            String job;
+            String id;
             while (rs.next()) {
                 //获取stuname这列数据
                 job = rs.getString("id");
@@ -55,13 +55,11 @@ public class JdbcTest {
             //数据库驱动类异常处理
             System.out.println("Sorry,can`t find the Driver!");
             e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (Exception e) {
             //数据库连接失败异常处理
             e.printStackTrace();
-        } catch (Exception e) {
-            // TODO: handle exception
-            e.printStackTrace();
-        } finally {
+        }// TODO: handle exception
+        finally {
             System.out.println("数据库数据成功获取！！");
         }
     }
