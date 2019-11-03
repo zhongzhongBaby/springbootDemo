@@ -7,9 +7,7 @@ import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
 
-
-
-
+@WebFilter  //可以在这块设置跨域  封装请求参数
 public class ContentFilter implements Filter {
 
     @Override

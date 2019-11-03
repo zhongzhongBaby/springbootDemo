@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * 这里并没有采用restful风格 只是简单封装了一下api
+ * 这里并没有采用restful风格 只是简单封装了一下api   通过接口调用控制定时任务
  *
  * @author yvan
  *

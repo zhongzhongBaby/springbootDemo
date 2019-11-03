@@ -1,7 +1,10 @@
-package dao;
+package com.example.demo.dao;
 
-import entity.Student;
+import com.example.demo.entity.Student;
+import com.example.demo.entity.Student;
+
 import java.util.List;
+
 
 public interface StudentMapper {
     /**

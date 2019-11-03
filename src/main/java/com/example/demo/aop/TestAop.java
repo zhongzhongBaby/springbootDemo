@@ -1,17 +1,10 @@
 package com.example.demo.aop;
 
 
-import com.example.demo.annotioon.ChangeDS;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
-import org.springframework.web.context.request.RequestAttributes;
-import org.springframework.web.context.request.RequestContextHolder;
-
-import java.lang.reflect.Method;
-import java.util.Arrays;
 
 @Component
 @Aspect
