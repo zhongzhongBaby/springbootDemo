@@ -38,3 +38,16 @@
 2019-11-06 15:34:29.312  INFO 127432 --- [http-nio-8093-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-11-06 15:34:29.314  INFO 127432 --- [http-nio-8093-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-11-06 15:34:29.338  INFO 127432 --- [http-nio-8093-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2019-11-06 15:34:58.027 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : ==>  Preparing: select create_date from teacher 
+2019-11-06 15:34:58.393 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : ==> Parameters: 
+2019-11-06 15:34:58.770 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : <==      Total: 2
+2019-11-06 17:24:23.728  WARN 127432 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h49m54s820ms69µs100ns).
+2019-11-06 17:24:23.733 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : ==>  Preparing: select create_date from teacher 
+2019-11-06 17:24:23.743 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : ==> Parameters: 
+2019-11-06 17:24:23.760 DEBUG 127432 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectAll     : <==      Total: 2
+2019-11-06 17:28:39.978 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : ==>  Preparing: select create_date from teacher 
+2019-11-06 17:28:40.000 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : ==> Parameters: 
+2019-11-06 17:28:40.033 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : <==      Total: 2
+2019-11-06 17:28:54.118 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : ==>  Preparing: select create_date from teacher 
+2019-11-06 17:28:54.121 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : ==> Parameters: 
+2019-11-06 17:28:54.128 DEBUG 127432 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectAll     : <==      Total: 2
