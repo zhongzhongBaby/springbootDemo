@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author yvan
  *
  */
-@RestController
+//@RestController
 @RequestMapping("/demo/quartz")
 public class QuartzApiController {
     @Autowired

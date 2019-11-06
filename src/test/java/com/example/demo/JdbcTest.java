@@ -13,12 +13,13 @@ public class JdbcTest {
         //驱动程序名
         String driver = "com.mysql.cj.jdbc.Driver";
         //URL指向要访问的数据库名mydata
-        String url = "jdbc:mysql://localhost:3306/nihao?serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/demo?serverTimezone=UTC&&useSSL=false";
         //MySQL配置时的用户名
         String user = "root";
         //MySQL配置时的密码
         String password = "123456";
         //遍历查询结果集
+        ResultSet rs=null;
         try {
             //加载驱动程序
             Class.forName(driver);
@@ -29,9 +30,9 @@ public class JdbcTest {
             //2.创建statement类对象，用来执行SQL语句！！
             Statement statement = con.createStatement();
             //要执行的SQL语句
-            String sql = "select * from myuser";
+            String sql = "select * from student";
             //3.ResultSet类，用来存放获取的结果集！！
-            ResultSet rs = statement.executeQuery(sql);
+            rs = statement.executeQuery(sql);
             System.out.println("-----------------");
             System.out.println("执行结果如下所示:");
             System.out.println("-----------------");
@@ -45,7 +46,6 @@ public class JdbcTest {
                 job = rs.getString("id");
                 //获取stuid这列数据
                 id = rs.getString("name");
-
                 //输出结果
                 System.out.println(id + "\t" + job);
             }
@@ -60,6 +60,7 @@ public class JdbcTest {
             e.printStackTrace();
         }// TODO: handle exception
         finally {
+
             System.out.println("数据库数据成功获取！！");
         }
     }

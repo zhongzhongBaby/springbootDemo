@@ -18,9 +18,5 @@
     insert into teacher (`name`, subject, create_date)
     values (#{name,jdbcType=VARCHAR}, #{subject,jdbcType=TIMESTAMP} , #{createDate,jdbcType=TIMESTAMP} )
   </insert>
-  <select id="selectAll" resultMap="BaseResultMap">
-    select id, `name`, subject,create_date
-    from teacher
-    order by create_date desc
-  </select>
+
 </mapper>

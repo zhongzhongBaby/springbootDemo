@@ -8,7 +8,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 
 
 
-@Configuration
+//@Configuration
 public class ApplicationStartQuartzJobListener implements ApplicationListener<ContextRefreshedEvent>{
     @Autowired
     private MyQuartzScheduler myQuartzScheduler;

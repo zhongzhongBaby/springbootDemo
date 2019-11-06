@@ -9,7 +9,6 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @ServletComponentScan
 @SpringBootApplication
-@MapperScan("com.example.demo.dao")
 public class DemoApplication {
 	private static Logger logger = LoggerFactory.getLogger(DemoApplication.class);
 	public static void main(String[] args) {

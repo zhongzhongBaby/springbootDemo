@@ -21,9 +21,12 @@ public class HomeController {
     public Map home(@RequestParam(name = "campusId", required = false) Integer campusId) throws Exception {
         Map m = new HashMap();
         int i = 0;
+        teacherMapper.selectAll();
+        m.put("teachers", teacherMapper.selectAll());
+      /*
         for (Teacher t : teacherMapper.selectAll()) {
-            m.put("teacher" + (i++), t.toString());
-        }
+            m.put("teachers" + (i++), t.toString());
+        }*/
         return m;
     }
 

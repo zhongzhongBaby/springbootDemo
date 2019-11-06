@@ -1,0 +1,17 @@
+2019-06-24 11:21:22.362  INFO 15020 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 15020 (G:\workspace\demo\target\classes started by PXX05 in G:\workspace\demo)
+2019-06-24 11:21:22.363  INFO 15020 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2019-06-24 11:21:22.500  INFO 15020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-06-24 11:21:22.500  INFO 15020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-24 11:21:22.504  INFO 15020 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-06-24 11:21:22.539  INFO 15020 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1e27aaf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-24 11:21:22.583  INFO 15020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 11:21:22.583  INFO 15020 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-24 11:21:22.584  INFO 15020 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-06-24 11:21:22.595  INFO 15020 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-24 11:21:22.596  INFO 15020 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 232 ms
+2019-06-24 11:21:22.713  INFO 15020 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-24 11:21:22.738  INFO 15020 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-06-24 11:21:22.789  INFO 15020 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-24 11:21:22.800  INFO 15020 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 11:21:22.800  INFO 15020 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.467 seconds (JVM running for 63.803)
+2019-06-24 11:21:22.801  INFO 15020 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

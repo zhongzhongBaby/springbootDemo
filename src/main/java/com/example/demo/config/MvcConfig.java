@@ -23,12 +23,13 @@ public class MvcConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/public/image/**").addResourceLocations("file:G:\\upload\\");
     }
+
     //视图控制器配置
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/importExcel").setViewName("importExcel.html");
         registry.addViewController("/ckeditor").setViewName("ckeditor.html");
-}
+    }
 
 
 }

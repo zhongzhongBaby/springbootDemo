@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class StringTest {
+
+
     /**
      * @Description: 合数转质数乘积
      */
@@ -133,7 +135,7 @@ public class StringTest {
      */
     @Test
     public void testOne() throws Exception {
-        String a = "a-bc-====d=ef----ghij!";
+        String a = "c==ab-a=-b!&a==ab-a=";
         char[] b = a.toCharArray();
         int i = 0, j = b.length - 1;
         while (i < j) {

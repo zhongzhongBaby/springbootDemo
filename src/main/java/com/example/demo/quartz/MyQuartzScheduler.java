@@ -15,7 +15,7 @@ import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
 import org.springframework.stereotype.Component;
 
-@Configuration
+//@Configuration
 public class MyQuartzScheduler {
     // 任务调度
     @Autowired
