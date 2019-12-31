@@ -9,6 +9,18 @@ import java.util.Scanner;
 
 public class StringTest {
 
+    /**
+    /**
+     * @Description:
+     */
+    @Test
+    public void test7() {
+        System.out.println(StringTest.class.getResource("/"));
+        System.out.println(StringTest.class.getResource(""));
+        System.out.println(StringTest.class.getClassLoader().getResource("/"));
+        System.out.println(StringTest.class.getClassLoader().getResource(""));
+    }
+
 
     /**
      * @Description: 合数转质数乘积

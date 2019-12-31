@@ -1,12 +1,87 @@
 package com.example.demo;
 
 import org.junit.Test;
-
-import java.math.BigDecimal;
-import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CommonTest {
+
+    public static String  username = "123123";
+
+
+    @Test
+    public void test8() {
+        Random random = new Random();
+        int a=random.nextInt(2);
+        System.out.println(a);
+    }
+
+    @Test
+    public void test7() {
+        String a = "<h1>qqxingj</h1>";
+        Matcher m = Pattern.compile(">(\\w+)<").matcher(a);
+        if(m.find()){
+            System.out.println(m.groupCount());
+            System.out.println(m.group(0));
+            System.out.println(m.group(1));
+        }else{
+            System.out.println(false);
+        }
+    }
+
+
+    @Test
+    public void test6(){
+        System.out.println(new Date().getTime());
+
+    }
+
+    public class  Month{
+        private  String monthName;
+        private  Date startTime;
+        private  Date endTime;
+
+        public String getMonthName() {
+            return monthName;
+        }
+
+        public void setMonthName(String monthName) {
+            this.monthName = monthName;
+        }
+
+        public Date getStartTime() {
+            return startTime;
+        }
+
+        public void setStartTime(Date startTime) {
+            this.startTime = startTime;
+        }
+
+        public Date getEndTime() {
+            return endTime;
+        }
+
+        public void setEndTime(Date endTime) {
+            this.endTime = endTime;
+        }
+    }
+
+
+
+    public <T> Object nihao2(Class<T>  clazz) {
+        try {
+            Object object =clazz.newInstance();
+            return object;
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+       return null;
+
+    }
+
     @Test
     public void test5() {
         String str = "accba-a=-b!&a==ba-c=a==ba-a=-b!&a==ba-=ca==ba-a=-b!&a==bc-=ca==ba-a=-b!&a==ba-=ca==ba-a=-b!&a==bc-=caccba-a=-b!&a==ba-c=a==ba-a=-b!&a==ba-=ca==ba-a=-b!&a==bc-=ca==ba-a=-b!&a==ba-=ca==ba-a=-b!&a==ba-c=";
@@ -15,6 +90,7 @@ public class CommonTest {
         for (int s : next) {
             System.out.print(s);
         }
+        System.out.println("");
         long t1 = System.currentTimeMillis();
         System.out.println(kmpMatch(str, match, next));
         long t2 = System.currentTimeMillis();
@@ -25,7 +101,6 @@ public class CommonTest {
 
     /**
      * 对主串s和模式串t进行KMP模式匹配
-     *
      * @param s 主串
      * @param t 模式串
      * @return 若匹配成功，返回t在s中的位置（第一个相同字符对应的位置），若匹配失败，返回-1
@@ -52,6 +127,7 @@ public class CommonTest {
 
     /**
      * 求出一个字符数组的next数组
+     *
      * @param t 字符数组
      * @return next数组
      */

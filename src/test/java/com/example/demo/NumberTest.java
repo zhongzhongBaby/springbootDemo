@@ -30,12 +30,11 @@ public class NumberTest {
     @Test
     public void test2() {
         String str = "156156456";
-        Matcher m = Pattern.compile("(.)(?=.*\\1)").matcher(str);
+        Matcher m = Pattern.compile("(\\d)(?=.*\\1)").matcher(str);
+        //()捕获型数组，(?=)非捕获性数组， *匹配前面的0次或者多次，\1捕获型数组拿到的值
         while (m.find()){
-            System.out.println(m.group());
             str = str.replace(m.group(), "");
         }
-        System.out.println(str);
         try {
             System.out.println(Integer.parseInt(str.toCharArray()[0] + "") % Integer.parseInt(str.toCharArray()[str.length() - 1] + "") == 0);
         } catch (Exception e) {

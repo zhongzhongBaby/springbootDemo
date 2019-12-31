@@ -22,7 +22,7 @@ spring:
   # mysql 配置
   datasource:
     url: jdbc:mysql://192.168.1.24:3306/demo?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true&allowMultiQueries=true&serverTimezone=UTC
-    driverClassName: com.mysql.cj.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
     username: root
     password: 123456
 

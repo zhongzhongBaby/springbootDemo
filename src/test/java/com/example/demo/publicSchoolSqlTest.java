@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class publicSchoolSqlTest {
 
     //批量修改学校的代码
-
     @Test
     public void test3() {
         Scanner scanner = new Scanner(System.in);
@@ -50,6 +49,8 @@ public class publicSchoolSqlTest {
     }
 
 
+
+    //查询学校
     @Test
     public void test() {
         Scanner scanner = new Scanner(System.in);
@@ -69,6 +70,7 @@ public class publicSchoolSqlTest {
     }
 
 
+    //查询学员年级 数量
     @Test
     public void test2() {
         Scanner scanner = new Scanner(System.in);

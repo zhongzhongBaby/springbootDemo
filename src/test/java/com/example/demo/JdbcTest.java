@@ -38,7 +38,6 @@ public class JdbcTest {
             System.out.println("-----------------");
             System.out.println("姓名" + "\t" + "职称");
             System.out.println("-----------------");
-
             String job;
             String id;
             while (rs.next()) {
