@@ -5,10 +5,11 @@ package com.example.demo.entity;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
+import lombok.Data;
 
 import java.io.Serializable;
 import java.util.Date;
-
+@Data
 @TableName(value = "teacher")//指定表名
 public class Teacher implements Serializable {
     /**
@@ -29,41 +30,8 @@ public class Teacher implements Serializable {
     private Date  createDate;
 
     private static final long serialVersionUID = 1L;
-    public Integer getId() {
-        return id;
-    }
-    public void setId(Integer id) {
-        this.id = id;
-    }
-    public String getName() {
-        return name;
-    }
+
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
-    }
-    public String getSubject() {
-        return subject;
-    }
-    public void setSubject(String subject) {
-        this.subject = subject == null ? null : subject.trim();
-    }
-    public Date getCreateDate() {
-        return createDate;
-    }
-    public void setCreateDate(Date createDate) {
-        this.createDate = createDate;
-    }
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", name=").append(name);
-        sb.append(", subject=").append(subject);
-        sb.append(", date=").append(createDate.getTime());
-        sb.append("]");
-        return sb.toString();
+        this.name = name +"123123123";
     }
 }

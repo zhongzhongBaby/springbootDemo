@@ -20,7 +20,9 @@ public class HomeController {
     @RequestMapping("/findTeachers")
     public Map home(@RequestParam(name = "campusId", required = false) Integer campusId) throws Exception {
         Map m = new HashMap();
-        m.put("teachers", teacherMapper.selectById("1"));
+        Teacher teacher = teacherMapper.selectById("1");
+        teacher.setName("test");
+        m.put("teachers", teacher);
       /*
         for (Teacher t : teacherMa1pper.selectAll()) {
             m.put("teachers" + (i++), t.toString());

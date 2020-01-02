@@ -63,8 +63,6 @@
         </dependency>
 
 
-
-
         <!--test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -166,7 +164,11 @@
         </dependency>
 
 
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 
 
     </dependencies>
@@ -221,5 +223,12 @@
 
         </plugins>
     </build>
-
+    <!--添加阿里云仓库-->
+    <repositories>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 </project>

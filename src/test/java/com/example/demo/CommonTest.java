@@ -19,12 +19,10 @@ public class CommonTest {
 
     @Test
     public void test7() {
-        String a = "<h1>qqxingj</h1>";
-        Matcher m = Pattern.compile(">(\\w+)<").matcher(a);
+        String a = "2020-05-05";
+        Matcher m = Pattern.compile("(\\d{4})-(\\d{2})-(?=\\2)").matcher(a);
         if(m.find()){
-            System.out.println(m.groupCount());
             System.out.println(m.group(0));
-            System.out.println(m.group(1));
         }else{
             System.out.println(false);
         }
