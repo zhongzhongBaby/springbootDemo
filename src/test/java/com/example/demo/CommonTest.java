@@ -1,25 +1,50 @@
 package com.example.demo;
 
+import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class CommonTest {
 
     public static String  username = "123123";
 
-
+    /**
+    * @Description: 递归实现排列
+    * @Param: []
+    * @Author: gengyuzhong
+    * @Date: 2020/1/2 
+    */ 
     @Test
-    public void test8() {
-        Random random = new Random();
-        int a=random.nextInt(2);
-        System.out.println(a);
+    public  void main(){
+        Stack<Integer> stack =  new Stack<>();
+        //递归实现排列组合
+        pailie(stack,1);
     }
+
+    public void pailie(Stack<Integer> stack,int cengshu){
+        for(int k = 1;k<=3;k++){
+            if(!stack.contains(k)){
+                stack.add(k);
+                if(cengshu==3){
+                    for (Integer x : stack) {
+                        System.out.print(x);
+                    }
+                    System.out.println("\n");
+                }else{
+                    pailie(stack,cengshu+1);
+                }
+                stack.pop();
+            }
+        }
+    }
+
 
     @Test
     public void test7() {
-        String a = "2020-05-05";
+            String a = "2020-05-05";
         Matcher m = Pattern.compile("(\\d{4})-(\\d{2})-(?=\\2)").matcher(a);
         if(m.find()){
             System.out.println(m.group(0));
