@@ -1,10 +1,49 @@
 package com.example.demo.utils;
 
 import com.alibaba.fastjson.JSONObject;
+import lombok.ToString;
 
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CommonUtils {
+
+    /** 
+    * @Description: 转驼峰
+    * @Param: [oldString]
+    * @Author: gengyuzhong
+    * @Date: 2020/1/6 
+    */
+    public static  String toHump(String oldString){
+        Matcher m = Pattern.compile("_([a-z])").matcher(oldString);
+        while(m.find()){
+            oldString=oldString.replaceFirst(m.group(0), m.group(1).toUpperCase());
+        }
+        return oldString;
+    }
+
+    /** 
+    * @Description:  修改Map的key
+    * @Param: 
+    * @Author: gengyuzhong
+    * @Date: 2020/1/6 
+    */
+    public static void mapRenameKeyToHump(Map<String,Object> map){
+        Set<String> set =map.keySet();
+        Iterator<String> iterator = set.iterator();
+        while(iterator.hasNext()){
+            String  c=iterator.next();
+            if(c.indexOf("_")!=-1){
+                map.put(toHump(c), map.get(c));
+                map.remove(c);
+            }
+        }
+    }
+
 
     /**
      * 从一个JSON 对象字符格式中得到一个java对象

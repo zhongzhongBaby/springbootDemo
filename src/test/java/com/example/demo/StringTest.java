@@ -6,8 +6,29 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class StringTest {
+
+    /**
+     * @Description: 下划线转驼峰形式
+     * @Param: []
+     * @Author: gengyuzhong
+     * @Date: 2020/1/2
+     */
+    @Test
+    public  void test8(){
+        String a = "create_date";
+        Matcher m = Pattern.compile("_([a-z])").matcher(a);
+        while(m.find()){
+            System.out.println(m.group(0));
+            a=a.replaceFirst(m.group(0), m.group(1).toUpperCase());
+        }
+        System.out.println(a);
+    }
+
+
 
     /**
     /**

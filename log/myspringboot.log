@@ -1,26 +1,26 @@
-2020-01-02 10:16:18.794  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 10188 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
-2020-01-02 10:16:18.826  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
-2020-01-02 10:16:18.863  INFO 10188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-01-02 10:16:18.864  INFO 10188 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-01-02 10:16:19.613  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-02 10:16:19.615  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-01-02 10:16:19.633  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-2020-01-02 10:16:19.900  INFO 10188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb6e9a21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-02 10:16:20.258  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
-2020-01-02 10:16:20.277  INFO 10188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-02 10:16:20.277  INFO 10188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-01-02 10:16:20.357  INFO 10188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-01-02 10:16:20.358  INFO 10188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1493 ms
-2020-01-02 10:16:20.544  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-01-02 10:16:20.779  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-01-02 10:16:21.455  INFO 10188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-02 10:16:21.522  INFO 10188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-01-02 10:16:21.592  INFO 10188 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-01-02 10:16:21.808  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2020-01-02 10:16:21.816  INFO 10188 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2020-01-02 10:16:21.817  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
-2020-01-02 10:16:21.817  INFO 10188 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2020-01-02 10:16:21.818  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2020-01-06 14:17:05.287  INFO 14652 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 14652 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:17:05.290  INFO 14652 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:17:05.324  INFO 14652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:17:05.325  INFO 14652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:17:06.073  INFO 14652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:17:06.074  INFO 14652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:17:06.092  INFO 14652 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-01-06 14:17:06.349  INFO 14652 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7ab3e75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:17:06.679  INFO 14652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:17:06.697  INFO 14652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:17:06.697  INFO 14652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:17:06.772  INFO 14652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:17:06.772  INFO 14652 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1446 ms
+2020-01-06 14:17:06.920  INFO 14652 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:17:07.038  INFO 14652 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:17:07.654  INFO 14652 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:17:07.693  INFO 14652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:17:07.738  INFO 14652 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:17:07.894  INFO 14652 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:17:07.901  INFO 14652 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:17:07.902  INFO 14652 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:17:07.903  INFO 14652 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:17:07.903  INFO 14652 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -28,52 +28,53 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2020-01-02 10:16:21.818  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2020-01-02 10:16:21.818  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
-2020-01-02 10:16:21.818  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@18b42cbc
-2020-01-02 10:16:21.880  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-01-02 10:16:21.890  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-01-02 10:16:21.896  INFO 10188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-01-02 10:16:21.905  INFO 10188 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2020-01-02 10:16:21.905  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2020-01-02 10:16:21.945  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
-2020-01-02 10:16:21.947  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.512 seconds (JVM running for 4.248)
-2020-01-02 10:16:26.160  INFO 10188 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-02 10:16:26.162  INFO 10188 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-02 10:16:26.185  INFO 10188 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
-2020-01-02 10:16:26.274 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : ==>  Preparing: SELECT id AS id,`name`,subject,create_date AS createDate FROM teacher WHERE id=? 
-2020-01-02 10:16:26.295 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : ==> Parameters: 1(String)
-2020-01-02 10:16:26.358 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : <==      Total: 1
-2020-01-02 10:17:50.423  INFO 10188 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2020-01-02 10:17:50.425  INFO 10188 --- [Thread-4] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2020-01-02 10:17:50.425  INFO 10188 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2020-01-02 10:17:50.425  INFO 10188 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2020-01-02 10:17:50.426  INFO 10188 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2020-01-02 10:17:50.427  INFO 10188 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-02 10:17:50.447  INFO 10188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-01-02 10:17:50.456  INFO 10188 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2020-01-02 10:17:50.696 ERROR 10188 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
-2020-01-02 10:17:50.728  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 10188 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
-2020-01-02 10:17:50.728  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
-2020-01-02 10:17:51.049  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-02 10:17:51.049  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-01-02 10:17:51.053  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
-2020-01-02 10:17:51.103  INFO 10188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb6e9a21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-02 10:17:51.163  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
-2020-01-02 10:17:51.165  INFO 10188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-02 10:17:51.165  INFO 10188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-01-02 10:17:51.186  INFO 10188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-01-02 10:17:51.186  INFO 10188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 456 ms
-2020-01-02 10:17:51.256  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2020-01-02 10:17:51.261  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2020-01-02 10:17:51.523  INFO 10188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-02 10:17:51.540  INFO 10188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-01-02 10:17:51.565  INFO 10188 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-01-02 10:17:51.624  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2020-01-06 14:17:07.904  INFO 14652 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:17:07.904  INFO 14652 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:17:07.904  INFO 14652 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1e869491
+2020-01-06 14:17:07.968  INFO 14652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:17:07.978  INFO 14652 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:17:07.984  INFO 14652 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:17:07.992  INFO 14652 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:17:07.992  INFO 14652 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:17:08.014  INFO 14652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:17:08.016  INFO 14652 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.064 seconds (JVM running for 3.759)
+2020-01-06 14:17:21.319  INFO 14652 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:17:21.320  INFO 14652 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:17:21.328  INFO 14652 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-01-06 14:17:29.033 DEBUG 14652 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectList    : ==>  Preparing: SELECT id,name FROM teacher 
+2020-01-06 14:17:29.046 DEBUG 14652 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectList    : ==> Parameters: 
+2020-01-06 14:17:29.055 DEBUG 14652 --- [http-nio-8093-exec-2] c.e.demo.dao.TeacherMapper.selectList    : <==      Total: 2
+2020-01-06 14:19:10.812  INFO 14652 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:19:10.815  INFO 14652 --- [Thread-9] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:19:10.815  INFO 14652 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:19:10.815  INFO 14652 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:19:10.816  INFO 14652 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:19:10.817  INFO 14652 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:19:10.835  INFO 14652 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:19:10.842  INFO 14652 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:19:14.339  INFO 13724 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 13724 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:19:14.340  INFO 13724 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:19:14.375  INFO 13724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:19:14.376  INFO 13724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:19:15.111  INFO 13724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:19:15.112  INFO 13724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:19:15.128  INFO 13724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-01-06 14:19:15.382  INFO 13724 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99978511] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:19:15.700  INFO 13724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:19:15.717  INFO 13724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:19:15.717  INFO 13724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:19:15.788  INFO 13724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:19:15.788  INFO 13724 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1412 ms
+2020-01-06 14:19:15.942  INFO 13724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:19:16.067  INFO 13724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:19:16.623  INFO 13724 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:19:16.661  INFO 13724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:19:16.717  INFO 13724 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:19:16.858  INFO 13724 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:19:16.865  INFO 13724 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:19:16.866  INFO 13724 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:19:16.866  INFO 13724 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:19:16.867  INFO 13724 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -81,53 +82,53 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
-2020-01-02 10:17:51.625  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@52e8e45f
-2020-01-02 10:17:51.661  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-01-02 10:17:51.661  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-01-02 10:17:51.663  INFO 10188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-01-02 10:17:51.663  INFO 10188 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2020-01-02 10:17:51.663  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2020-01-02 10:17:51.668  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
-2020-01-02 10:17:51.668  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.966 seconds (JVM running for 93.97)
-2020-01-02 10:17:51.671  INFO 10188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2020-01-02 10:17:53.662  INFO 10188 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-01-02 10:17:53.663  INFO 10188 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-01-02 10:17:53.667  INFO 10188 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2020-01-02 10:17:53.669 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : ==>  Preparing: SELECT id AS id,`name`,subject,create_date AS createDate FROM teacher WHERE id=? 
-2020-01-02 10:17:53.670 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : ==> Parameters: 1(String)
-2020-01-02 10:17:53.671 DEBUG 10188 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectById    : <==      Total: 1
-2020-01-02 10:18:12.701  INFO 10188 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2020-01-02 10:18:12.702  INFO 10188 --- [Thread-10] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2020-01-02 10:18:12.703  INFO 10188 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2020-01-02 10:18:12.703  INFO 10188 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2020-01-02 10:18:12.703  INFO 10188 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2020-01-02 10:18:12.704  INFO 10188 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-01-02 10:18:12.714  INFO 10188 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2020-01-02 10:18:12.729  INFO 10188 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2020-01-02 10:18:12.948 ERROR 10188 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
-2020-01-02 10:18:12.975  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 10188 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
-2020-01-02 10:18:12.975  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
-2020-01-02 10:18:13.298  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-01-02 10:18:13.298  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2020-01-02 10:18:13.302  INFO 10188 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
-2020-01-02 10:18:13.351  INFO 10188 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb6e9a21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2020-01-02 10:18:13.406  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
-2020-01-02 10:18:13.407  INFO 10188 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-01-02 10:18:13.407  INFO 10188 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
-2020-01-02 10:18:13.421  INFO 10188 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-01-02 10:18:13.421  INFO 10188 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 444 ms
-2020-01-02 10:18:13.502  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2020-01-02 10:18:13.508  INFO 10188 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2020-01-02 10:18:13.715  INFO 10188 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-01-02 10:18:13.730  INFO 10188 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-01-02 10:18:13.750  INFO 10188 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2020-01-02 10:18:13.808  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2020-01-02 10:18:13.809  INFO 10188 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2020-01-06 14:19:16.867  INFO 13724 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:19:16.867  INFO 13724 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:19:16.867  INFO 13724 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@618a370f
+2020-01-06 14:19:16.928  INFO 13724 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:19:16.936  INFO 13724 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:19:16.941  INFO 13724 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:19:16.948  INFO 13724 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:19:16.948  INFO 13724 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:19:16.969  INFO 13724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:19:16.971  INFO 13724 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.917 seconds (JVM running for 3.628)
+2020-01-06 14:19:24.662  INFO 13724 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:19:24.663  INFO 13724 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:19:24.672  INFO 13724 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-06 14:19:24.721 DEBUG 13724 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name FROM teacher 
+2020-01-06 14:19:24.733 DEBUG 13724 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:19:24.741 DEBUG 13724 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:20:03.653  INFO 13724 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:20:03.655  INFO 13724 --- [Thread-9] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:20:03.655  INFO 13724 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:20:03.655  INFO 13724 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:20:03.655  INFO 13724 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:20:03.657  INFO 13724 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:20:03.671  INFO 13724 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:20:03.677  INFO 13724 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:20:07.196  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:20:07.197  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:20:07.239  INFO 20768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:20:07.239  INFO 20768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:20:07.978  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:20:07.980  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:20:07.998  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-01-06 14:20:08.235  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:20:08.534  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:20:08.550  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:20:08.550  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:20:08.626  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:20:08.626  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1387 ms
+2020-01-06 14:20:08.773  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:20:08.898  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:20:09.458  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:20:09.505  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:20:09.550  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:20:09.681  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:20:09.687  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:20:09.688  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:20:09.689  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:20:09.689  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -135,14 +136,873 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
-2020-01-02 10:18:13.810  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@50d1c2d7
-2020-01-02 10:18:13.847  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2020-01-02 10:18:13.847  INFO 10188 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-01-02 10:18:13.848  INFO 10188 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2020-01-02 10:18:13.848  INFO 10188 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2020-01-02 10:18:13.849  INFO 10188 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2020-01-02 10:18:13.853  INFO 10188 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
-2020-01-02 10:18:13.853  INFO 10188 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.901 seconds (JVM running for 116.155)
-2020-01-02 10:18:13.855  INFO 10188 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:20:09.689  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:20:09.689  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:20:09.689  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6cf52d6e
+2020-01-06 14:20:09.761  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:20:09.770  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:20:09.775  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:20:09.782  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:20:09.782  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:20:09.804  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:20:09.805  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.954 seconds (JVM running for 3.609)
+2020-01-06 14:20:20.594  INFO 20768 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:20:20.596  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:20:20.603  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-06 14:20:20.649 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,createDate FROM teacher 
+2020-01-06 14:20:20.660 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:20:20.725  WARN 20768 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'createDate' in 'field list'
+### The error may exist in com/example/demo/dao/TeacherMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT   id,name,createDate   FROM teacher
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'createDate' in 'field list'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'createDate' in 'field list']
+2020-01-06 14:20:39.384  INFO 20768 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:20:39.386  INFO 20768 --- [Thread-4] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:20:39.386  INFO 20768 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:20:39.386  INFO 20768 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:20:39.386  INFO 20768 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:20:39.388  INFO 20768 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:20:39.403  INFO 20768 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:20:39.410  INFO 20768 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:20:39.636 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:20:39.667  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:20:39.667  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:20:40.016  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:20:40.016  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:20:40.019  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 14:20:40.071  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:20:40.134  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:20:40.134  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:20:40.134  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:20:40.153  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:20:40.153  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 484 ms
+2020-01-06 14:20:40.249  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-06 14:20:40.254  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-06 14:20:40.587  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:20:40.613  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:20:40.652  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:20:40.731  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:20:40.732  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:20:40.732  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:20:40.733  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:20:40.733  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:20:40.733  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:20:40.733  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:20:40.733  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@70b1e708
+2020-01-06 14:20:40.774  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:20:40.776  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:20:40.778  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:20:40.779  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:20:40.779  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:20:40.787  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:20:40.788  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.148 seconds (JVM running for 34.591)
+2020-01-06 14:20:40.790  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:20:40.910  INFO 20768 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:20:40.910  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:20:40.916  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-06 14:20:40.918 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:20:40.918 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:20:40.927 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:24:09.388  INFO 20768 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:24:09.389  INFO 20768 --- [Thread-10] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:24:09.389  INFO 20768 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:24:09.389  INFO 20768 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:24:09.389  INFO 20768 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:24:09.390  INFO 20768 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:24:09.397  INFO 20768 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-06 14:24:09.403  INFO 20768 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-06 14:24:09.648 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:24:09.675  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:24:09.676  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:24:10.010  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:24:10.010  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:24:10.014  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2020-01-06 14:24:10.128  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:24:10.196  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:24:10.197  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:24:10.197  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:24:10.213  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:24:10.213  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 536 ms
+2020-01-06 14:24:10.463  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:24:10.489  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:24:10.511  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:24:10.536  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-06 14:24:10.540  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-06 14:24:10.612  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:24:10.612  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:24:10.613  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1514b2bf
+2020-01-06 14:24:10.651  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:24:10.651  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:24:10.653  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:24:10.653  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:24:10.653  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:24:10.662  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:24:10.663  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.011 seconds (JVM running for 244.466)
+2020-01-06 14:24:10.665  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:26:38.783  INFO 20768 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:26:38.786  INFO 20768 --- [Thread-17] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:26:38.786  INFO 20768 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:26:38.786  INFO 20768 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:26:38.786  INFO 20768 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:26:38.787  INFO 20768 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-01-06 14:26:38.794  INFO 20768 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-01-06 14:26:38.794  INFO 20768 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:26:39.060 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:26:39.101  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:26:39.101  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:26:39.464  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:26:39.464  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:26:39.468  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2020-01-06 14:26:39.522  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:26:39.585  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:26:39.586  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:26:39.586  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:26:39.600  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:26:39.600  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 495 ms
+2020-01-06 14:26:39.671  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-01-06 14:26:39.675  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-01-06 14:26:39.895  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:26:39.915  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:26:39.938  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:26:39.998  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:26:39.999  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:26:39.999  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:26:39.999  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:26:40.000  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:26:40.000  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:26:40.000  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:26:40.000  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3bd7061
+2020-01-06 14:26:40.057  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:26:40.058  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:26:40.061  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:26:40.061  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:26:40.061  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:26:40.070  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:26:40.071  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.005 seconds (JVM running for 393.874)
+2020-01-06 14:26:40.073  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:26:51.591  INFO 20768 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:26:51.592  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:26:51.598  INFO 20768 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-06 14:26:51.602 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,DATE_FORMAT(create_date,'%Y-%m') FROM teacher 
+2020-01-06 14:26:51.603 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:26:51.607 DEBUG 20768 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:27:22.325 DEBUG 20768 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,DATE_FORMAT(create_date,'%Y-%m') FROM teacher 
+2020-01-06 14:27:22.326 DEBUG 20768 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:27:22.336 DEBUG 20768 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:27:25.284  INFO 20768 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:27:25.285  INFO 20768 --- [Thread-24] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:27:25.286  INFO 20768 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:27:25.286  INFO 20768 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:27:25.286  INFO 20768 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:27:25.286  INFO 20768 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:27:25.294  INFO 20768 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-01-06 14:27:25.302  INFO 20768 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-01-06 14:27:25.551 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:27:25.583  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:27:25.583  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:27:25.922  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:27:25.922  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:27:25.926  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 14:27:25.974  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:27:26.029  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:27:26.030  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:27:26.030  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:27:26.043  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:27:26.043  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 457 ms
+2020-01-06 14:27:26.093  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-01-06 14:27:26.097  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-01-06 14:27:26.291  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:27:26.306  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:27:26.326  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:27:26.378  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:27:26.378  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:27:26.379  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7ca5af10
+2020-01-06 14:27:26.413  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:27:26.413  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:27:26.415  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:27:26.415  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:27:26.415  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:27:26.419  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:27:26.420  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.864 seconds (JVM running for 440.222)
+2020-01-06 14:27:26.421  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:27:32.298  INFO 20768 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:27:32.300  INFO 20768 --- [Thread-31] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:27:32.300  INFO 20768 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:27:32.300  INFO 20768 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:27:32.300  INFO 20768 --- [Thread-31] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:27:32.301  INFO 20768 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:27:32.307  INFO 20768 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2020-01-06 14:27:32.311  INFO 20768 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-01-06 14:27:32.540 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:27:32.578  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:27:32.578  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:27:32.947  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:27:32.947  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:27:32.951  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2020-01-06 14:27:32.998  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:27:33.054  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:27:33.055  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:27:33.055  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:27:33.069  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:27:33.069  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 487 ms
+2020-01-06 14:27:33.119  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2020-01-06 14:27:33.123  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2020-01-06 14:27:33.321  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:27:33.336  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:27:33.355  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:27:33.406  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:27:33.407  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@83c3abc
+2020-01-06 14:27:33.448  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:27:33.448  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:27:33.449  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:27:33.450  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:27:33.450  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:27:33.456  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:27:33.456  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.911 seconds (JVM running for 447.259)
+2020-01-06 14:27:33.458  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:27:36.020  INFO 20768 --- [http-nio-8093-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:27:36.021  INFO 20768 --- [http-nio-8093-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:27:36.026  INFO 20768 --- [http-nio-8093-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-06 14:27:36.030 DEBUG 20768 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:27:36.030 DEBUG 20768 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:27:36.032 DEBUG 20768 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:46:21.239  INFO 20768 --- [Thread-38] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:46:21.239  INFO 20768 --- [Thread-38] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:46:21.239  INFO 20768 --- [Thread-38] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:46:21.240  INFO 20768 --- [Thread-38] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:46:21.240  INFO 20768 --- [Thread-38] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:46:21.240  INFO 20768 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:46:21.246  INFO 20768 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-01-06 14:46:21.251  INFO 20768 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-01-06 14:46:21.497 ERROR 20768 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:46:21.532  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 20768 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:46:21.532  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:46:21.991  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:46:21.991  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:46:21.994  INFO 20768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 14:46:22.035  INFO 20768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$44d59cd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:46:22.088  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:46:22.089  INFO 20768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:46:22.089  INFO 20768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:46:22.102  INFO 20768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:46:22.102  INFO 20768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 567 ms
+2020-01-06 14:46:22.149  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-01-06 14:46:22.152  INFO 20768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-01-06 14:46:22.336  INFO 20768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:46:22.350  INFO 20768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:46:22.368  INFO 20768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:46:22.417  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:46:22.417  INFO 20768 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:46:22.418  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@63cb454f
+2020-01-06 14:46:22.452  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:46:22.452  INFO 20768 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:46:22.453  INFO 20768 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:46:22.453  INFO 20768 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:46:22.454  INFO 20768 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:46:22.458  INFO 20768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:46:22.459  INFO 20768 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.958 seconds (JVM running for 1576.262)
+2020-01-06 14:46:22.460  INFO 20768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:53:29.221  INFO 20768 --- [Thread-51] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:53:29.223  INFO 20768 --- [Thread-51] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:53:29.223  INFO 20768 --- [Thread-51] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:53:29.223  INFO 20768 --- [Thread-51] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:53:29.223  INFO 20768 --- [Thread-51] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:53:29.224  INFO 20768 --- [Thread-51] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:53:29.230  INFO 20768 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2020-01-06 14:53:29.237  INFO 20768 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2020-01-06 14:53:32.914  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 15624 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:53:32.915  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:53:32.953  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:53:32.953  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:53:33.636  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:53:33.637  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:53:33.652  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-01-06 14:53:33.895  INFO 15624 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9aebc1a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:53:34.200  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:53:34.218  INFO 15624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:53:34.218  INFO 15624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:53:34.298  INFO 15624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:53:34.300  INFO 15624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1347 ms
+2020-01-06 14:53:34.441  INFO 15624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:53:34.557  INFO 15624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:53:35.109  INFO 15624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:53:35.143  INFO 15624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:53:35.197  INFO 15624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:53:35.333  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:53:35.339  INFO 15624 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:53:35.341  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:53:35.341  INFO 15624 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:53:35.342  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:53:35.342  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:53:35.342  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:53:35.342  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7c419109
+2020-01-06 14:53:35.402  INFO 15624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:53:35.409  INFO 15624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:53:35.415  INFO 15624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:53:35.421  INFO 15624 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:53:35.421  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:53:35.442  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:53:35.444  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.847 seconds (JVM running for 3.551)
+2020-01-06 14:53:42.300  INFO 15624 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:53:42.302  INFO 15624 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:53:42.310  INFO 15624 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-01-06 14:53:42.370 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:53:42.383 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:53:42.393 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:53:42.433  WARN 15624 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:54:19.641 DEBUG 15624 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:54:19.641 DEBUG 15624 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:54:19.642 DEBUG 15624 --- [http-nio-8093-exec-4] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:54:19.645  WARN 15624 --- [http-nio-8093-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:54:21.169  INFO 15624 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:54:21.171  INFO 15624 --- [Thread-4] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:54:21.171  INFO 15624 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:54:21.171  INFO 15624 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:54:21.172  INFO 15624 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:54:21.172  INFO 15624 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:54:21.185  INFO 15624 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:54:21.192  INFO 15624 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:54:21.483 ERROR 15624 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:54:21.508  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 15624 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:54:21.508  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:54:21.886  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:54:21.886  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:54:21.890  INFO 15624 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 14:54:21.964  INFO 15624 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9aebc1a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:54:22.024  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:54:22.025  INFO 15624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:54:22.025  INFO 15624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:54:22.041  INFO 15624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:54:22.041  INFO 15624 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 531 ms
+2020-01-06 14:54:22.097  INFO 15624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-06 14:54:22.101  INFO 15624 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-06 14:54:22.313  INFO 15624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:54:22.331  INFO 15624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:54:22.354  INFO 15624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:54:22.420  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:54:22.421  INFO 15624 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:54:22.421  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:54:22.421  INFO 15624 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:54:22.421  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:54:22.422  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:54:22.422  INFO 15624 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:54:22.422  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1cb65aad
+2020-01-06 14:54:22.466  INFO 15624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:54:22.467  INFO 15624 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:54:22.468  INFO 15624 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:54:22.468  INFO 15624 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:54:22.469  INFO 15624 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:54:22.475  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:54:22.476  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.988 seconds (JVM running for 50.582)
+2020-01-06 14:54:22.480  INFO 15624 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:54:25.575  INFO 15624 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:54:25.577  INFO 15624 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:54:25.583  INFO 15624 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-06 14:54:25.586 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:54:25.587 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:54:25.589 DEBUG 15624 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:54:25.594  WARN 15624 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:54:26.269 DEBUG 15624 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:54:26.270 DEBUG 15624 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:54:26.271 DEBUG 15624 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:54:26.274  WARN 15624 --- [http-nio-8093-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:54:30.667  INFO 15624 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:54:30.668  INFO 15624 --- [Thread-16] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:54:30.668  INFO 15624 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:54:30.668  INFO 15624 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:54:30.669  INFO 15624 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:54:30.669  INFO 15624 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:54:30.677  INFO 15624 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-06 14:54:30.683  INFO 15624 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-06 14:54:32.991  INFO 21592 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21592 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:54:32.991  INFO 21592 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:54:33.029  INFO 21592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:54:33.029  INFO 21592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:54:33.719  INFO 21592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:54:33.720  INFO 21592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:54:33.733  INFO 21592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-01-06 14:54:33.967  INFO 21592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c6147308] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:54:34.259  INFO 21592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:54:34.275  INFO 21592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:54:34.276  INFO 21592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:54:34.348  INFO 21592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:54:34.348  INFO 21592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1319 ms
+2020-01-06 14:54:34.499  INFO 21592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:54:34.616  INFO 21592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:54:35.175  INFO 21592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:54:35.220  INFO 21592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:54:35.263  INFO 21592 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:54:35.393  INFO 21592 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:54:35.399  INFO 21592 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:54:35.400  INFO 21592 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:54:35.401  INFO 21592 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:54:35.401  INFO 21592 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:54:35.401  INFO 21592 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:54:35.401  INFO 21592 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:54:35.401  INFO 21592 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@b4864c8
+2020-01-06 14:54:35.471  INFO 21592 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:54:35.480  INFO 21592 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:54:35.485  INFO 21592 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:54:35.492  INFO 21592 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:54:35.492  INFO 21592 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:54:35.514  INFO 21592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:54:35.515  INFO 21592 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.838 seconds (JVM running for 3.511)
+2020-01-06 14:54:37.660  INFO 21592 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:54:37.661  INFO 21592 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:54:37.671  INFO 21592 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-01-06 14:54:37.722 DEBUG 21592 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:54:37.736 DEBUG 21592 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:54:37.746 DEBUG 21592 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:54:37.790  WARN 21592 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:54:46.322 DEBUG 21592 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:54:46.329 DEBUG 21592 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:54:46.348 DEBUG 21592 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:54:52.660  WARN 21592 --- [http-nio-8093-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:55:22.645  INFO 21592 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:55:22.648  INFO 21592 --- [Thread-9] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:55:22.648  INFO 21592 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:55:22.648  INFO 21592 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:55:22.649  INFO 21592 --- [Thread-9] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:55:22.650  INFO 21592 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:55:22.667  INFO 21592 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:55:22.674  INFO 21592 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:55:26.193  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 19672 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:55:26.194  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:55:26.228  INFO 19672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:55:26.229  INFO 19672 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:55:26.887  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:55:26.888  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:55:26.902  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-01-06 14:55:27.141  INFO 19672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22eef1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:55:27.440  INFO 19672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:55:27.457  INFO 19672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:55:27.457  INFO 19672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:55:27.526  INFO 19672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:55:27.526  INFO 19672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1297 ms
+2020-01-06 14:55:27.664  INFO 19672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:55:27.779  INFO 19672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:55:28.323  INFO 19672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:55:28.358  INFO 19672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:55:28.411  INFO 19672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:55:28.548  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:55:28.555  INFO 19672 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:55:28.556  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:55:28.556  INFO 19672 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:55:28.557  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:55:28.557  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:55:28.557  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:55:28.557  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2e59037c
+2020-01-06 14:55:28.618  INFO 19672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:55:28.626  INFO 19672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:55:28.631  INFO 19672 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:55:28.637  INFO 19672 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:55:28.637  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:55:28.658  INFO 19672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:55:28.660  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.789 seconds (JVM running for 3.457)
+2020-01-06 14:56:35.171  INFO 19672 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:56:35.174  INFO 19672 --- [Thread-4] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:56:35.174  INFO 19672 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:56:35.174  INFO 19672 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:56:35.174  INFO 19672 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:56:35.175  INFO 19672 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:56:35.191  INFO 19672 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 14:56:35.198  INFO 19672 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 14:56:35.429 ERROR 19672 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 14:56:35.466  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 19672 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:56:35.466  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:56:35.796  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:56:35.796  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:56:35.799  INFO 19672 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 14:56:35.845  INFO 19672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22eef1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:56:35.900  INFO 19672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:56:35.901  INFO 19672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:56:35.901  INFO 19672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:56:35.916  INFO 19672 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:56:35.916  INFO 19672 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 448 ms
+2020-01-06 14:56:35.966  INFO 19672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-06 14:56:35.971  INFO 19672 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-06 14:56:36.177  INFO 19672 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:56:36.192  INFO 19672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:56:36.210  INFO 19672 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:56:36.265  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:56:36.266  INFO 19672 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:56:36.267  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@64099ccf
+2020-01-06 14:56:36.304  INFO 19672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:56:36.305  INFO 19672 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:56:36.306  INFO 19672 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:56:36.306  INFO 19672 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:56:36.306  INFO 19672 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:56:36.315  INFO 19672 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:56:36.316  INFO 19672 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.88 seconds (JVM running for 71.113)
+2020-01-06 14:56:36.322  INFO 19672 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 14:56:37.856  INFO 19672 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 14:56:37.858  INFO 19672 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 14:56:37.865  INFO 19672 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-01-06 14:56:37.913 DEBUG 19672 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 14:56:37.926 DEBUG 19672 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 14:56:37.934 DEBUG 19672 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 14:56:37.972  WARN 19672 --- [http-nio-8093-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.util.ConcurrentModificationException]
+2020-01-06 14:59:48.559  INFO 19672 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:59:48.560  INFO 19672 --- [Thread-16] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 14:59:48.560  INFO 19672 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 14:59:48.560  INFO 19672 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 14:59:48.560  INFO 19672 --- [Thread-16] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 14:59:48.561  INFO 19672 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:59:48.567  INFO 19672 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-06 14:59:48.574  INFO 19672 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-06 14:59:52.175  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21888 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 14:59:52.176  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 14:59:52.208  INFO 21888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-01-06 14:59:52.208  INFO 21888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-01-06 14:59:52.898  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 14:59:52.905  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 14:59:52.919  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-01-06 14:59:53.158  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed4b725f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 14:59:53.464  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 14:59:53.480  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 14:59:53.481  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 14:59:53.551  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 14:59:53.552  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1343 ms
+2020-01-06 14:59:53.694  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-06 14:59:53.812  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-06 14:59:54.366  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 14:59:54.402  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 14:59:54.455  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 14:59:54.589  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 14:59:54.596  INFO 21888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 14:59:54.597  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 14:59:54.597  INFO 21888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 14:59:54.597  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 14:59:54.598  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 14:59:54.598  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 14:59:54.598  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@201ef59e
+2020-01-06 14:59:54.659  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 14:59:54.667  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 14:59:54.672  INFO 21888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 14:59:54.688  INFO 21888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 14:59:54.688  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 14:59:54.710  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 14:59:54.712  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.837 seconds (JVM running for 3.518)
+2020-01-06 15:00:01.391  INFO 21888 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 15:00:01.393  INFO 21888 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 15:00:01.402  INFO 21888 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-01-06 15:00:01.454 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 15:00:01.466 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 15:00:01.475 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 15:00:11.039 DEBUG 21888 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 15:00:11.039 DEBUG 21888 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 15:00:11.040 DEBUG 21888 --- [http-nio-8093-exec-3] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 15:01:25.872 DEBUG 21888 --- [http-nio-8093-exec-8] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher 
+2020-01-06 15:01:25.872 DEBUG 21888 --- [http-nio-8093-exec-8] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 
+2020-01-06 15:01:25.874 DEBUG 21888 --- [http-nio-8093-exec-8] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 2
+2020-01-06 15:01:27.881  INFO 21888 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:01:27.883  INFO 21888 --- [Thread-4] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 15:01:27.883  INFO 21888 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 15:01:27.883  INFO 21888 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:01:27.883  INFO 21888 --- [Thread-4] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 15:01:27.884  INFO 21888 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:01:27.896  INFO 21888 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-06 15:01:27.901  INFO 21888 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-06 15:01:28.099 ERROR 21888 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 15:01:28.124  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21888 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 15:01:28.124  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 15:01:28.493  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 15:01:28.493  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 15:01:28.498  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2020-01-06 15:01:28.552  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed4b725f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 15:01:28.616  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 15:01:28.617  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 15:01:28.617  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 15:01:28.632  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 15:01:28.632  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 506 ms
+2020-01-06 15:01:28.685  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-06 15:01:28.689  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-06 15:01:28.920  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:01:28.941  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 15:01:28.971  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 15:01:29.050  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 15:01:29.051  INFO 21888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 15:01:29.051  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 15:01:29.051  INFO 21888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 15:01:29.051  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 15:01:29.052  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 15:01:29.052  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 15:01:29.052  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@127c322c
+2020-01-06 15:01:29.111  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 15:01:29.112  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 15:01:29.113  INFO 21888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 15:01:29.113  INFO 21888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 15:01:29.113  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 15:01:29.119  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 15:01:29.120  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.017 seconds (JVM running for 97.927)
+2020-01-06 15:01:29.128  INFO 21888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 15:02:27.078  INFO 21888 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:02:27.080  INFO 21888 --- [Thread-10] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 15:02:27.080  INFO 21888 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 15:02:27.080  INFO 21888 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:02:27.081  INFO 21888 --- [Thread-10] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 15:02:27.082  INFO 21888 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:02:27.090  INFO 21888 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-06 15:02:27.096  INFO 21888 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-06 15:02:27.377 ERROR 21888 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 15:02:27.407  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21888 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 15:02:27.407  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 15:02:27.730  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 15:02:27.730  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 15:02:27.734  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 15:02:27.777  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed4b725f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 15:02:27.830  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 15:02:27.831  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 15:02:27.831  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 15:02:27.846  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 15:02:27.846  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 437 ms
+2020-01-06 15:02:28.045  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:02:28.060  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 15:02:28.078  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 15:02:28.102  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-06 15:02:28.105  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-06 15:02:28.165  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 15:02:28.166  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 15:02:28.167  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@50736216
+2020-01-06 15:02:28.200  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 15:02:28.200  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 15:02:28.201  INFO 21888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 15:02:28.201  INFO 21888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 15:02:28.201  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 15:02:28.207  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 15:02:28.207  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.825 seconds (JVM running for 157.014)
+2020-01-06 15:02:28.209  INFO 21888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 15:04:46.835  INFO 21888 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:04:46.839  INFO 21888 --- [Thread-17] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 15:04:46.839  INFO 21888 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 15:04:46.839  INFO 21888 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:04:46.839  INFO 21888 --- [Thread-17] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 15:04:46.840  INFO 21888 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2020-01-06 15:04:46.850  INFO 21888 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2020-01-06 15:04:46.851  INFO 21888 --- [Thread-17] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:04:47.087 ERROR 21888 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 15:04:47.112  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21888 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 15:04:47.112  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 15:04:47.422  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 15:04:47.422  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 15:04:47.426  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2020-01-06 15:04:47.476  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed4b725f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 15:04:47.535  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 15:04:47.536  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 15:04:47.536  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 15:04:47.550  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 15:04:47.550  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 435 ms
+2020-01-06 15:04:47.602  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2020-01-06 15:04:47.606  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2020-01-06 15:04:47.808  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:04:47.824  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 15:04:47.845  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 15:04:47.895  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 15:04:47.896  INFO 21888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 15:04:47.896  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 15:04:47.897  INFO 21888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 15:04:47.897  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 15:04:47.897  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 15:04:47.897  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 15:04:47.897  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5303f01c
+2020-01-06 15:04:47.931  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 15:04:47.931  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 15:04:47.932  INFO 21888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 15:04:47.933  INFO 21888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 15:04:47.933  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 15:04:47.937  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 15:04:47.938  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.847 seconds (JVM running for 296.745)
+2020-01-06 15:04:47.940  INFO 21888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 15:05:43.824  INFO 21888 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:05:43.826  INFO 21888 --- [Thread-24] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2020-01-06 15:05:43.826  INFO 21888 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-01-06 15:05:43.826  INFO 21888 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-01-06 15:05:43.826  INFO 21888 --- [Thread-24] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-01-06 15:05:43.827  INFO 21888 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:05:43.837  INFO 21888 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-01-06 15:05:43.923  INFO 21888 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-01-06 15:05:44.151 ERROR 21888 --- [restartedMain] com.example.demo.DemoApplication         : demo project are  running +++++++++++++++++++++++++
+2020-01-06 15:05:44.196  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on DESKTOP-RF9T3V1 with PID 21888 (G:\workspace\myDemo\demo\target\classes started by PXX05 in G:\workspace\myDemo\demo)
+2020-01-06 15:05:44.197  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : The following profiles are active: test
+2020-01-06 15:05:44.517  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-01-06 15:05:44.517  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-01-06 15:05:44.521  INFO 21888 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2020-01-06 15:05:44.571  INFO 21888 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed4b725f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-06 15:05:44.637  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2020-01-06 15:05:44.638  INFO 21888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-06 15:05:44.638  INFO 21888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2020-01-06 15:05:44.655  INFO 21888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-06 15:05:44.655  INFO 21888 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 455 ms
+2020-01-06 15:05:44.713  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2020-01-06 15:05:44.717  INFO 21888 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2020-01-06 15:05:44.969  INFO 21888 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-06 15:05:44.990  INFO 21888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-06 15:05:45.010  INFO 21888 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-01-06 15:05:45.073  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.2.1 created.
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.2.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.2.1
+2020-01-06 15:05:45.074  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2fdf1453
+2020-01-06 15:05:45.113  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-01-06 15:05:45.113  INFO 21888 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-01-06 15:05:45.114  INFO 21888 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-01-06 15:05:45.115  INFO 21888 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-01-06 15:05:45.115  INFO 21888 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-01-06 15:05:45.120  INFO 21888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2020-01-06 15:05:45.120  INFO 21888 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.964 seconds (JVM running for 353.927)
+2020-01-06 15:05:45.122  INFO 21888 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-06 15:05:50.155  INFO 21888 --- [http-nio-8093-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-06 15:05:50.156  INFO 21888 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-06 15:05:50.164  INFO 21888 --- [http-nio-8093-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-01-06 15:05:50.174 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==>  Preparing: SELECT id,name,create_date FROM teacher WHERE name = ? 
+2020-01-06 15:05:50.175 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : ==> Parameters: 1(Integer)
+2020-01-06 15:05:50.176 DEBUG 21888 --- [http-nio-8093-exec-1] c.e.demo.dao.TeacherMapper.selectMaps    : <==      Total: 1

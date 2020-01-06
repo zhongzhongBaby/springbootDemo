@@ -1,15 +1,32 @@
 package com.example.demo;
 
-import org.apache.commons.lang.StringUtils;
 import org.junit.Test;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 public class CommonTest {
 
     public static String  username = "123123";
+
+
+    /**
+     * @Description: 下划线转驼峰形式
+     * @Param: []
+     * @Author: gengyuzhong
+     * @Date: 2020/1/2
+     */
+    @Test
+    public  void test9(){
+        String a = "create_date";
+        Matcher m = Pattern.compile("_([a-z])").matcher(a);
+        while(m.find()){
+            System.out.println(m.group(0));
+            a=a.replaceFirst(m.group(0), m.group(1).toUpperCase());
+        }
+        System.out.println(a);
+    }
+
 
     /**
     * @Description: 递归实现排列
@@ -18,9 +35,9 @@ public class CommonTest {
     * @Date: 2020/1/2 
     */ 
     @Test
-    public  void main(){
+    public  void test8(){
         Stack<Integer> stack =  new Stack<>();
-        //递归实现排列组合
+        //递归实现排列
         pailie(stack,1);
     }
 
@@ -29,9 +46,7 @@ public class CommonTest {
             if(!stack.contains(k)){
                 stack.add(k);
                 if(cengshu==3){
-                    for (Integer x : stack) {
-                        System.out.print(x);
-                    }
+                    stack.stream().forEach(System.out::print);
                     System.out.println("\n");
                 }else{
                     pailie(stack,cengshu+1);
