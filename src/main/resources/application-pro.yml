@@ -19,13 +19,7 @@ mybatis:
 
 # spring 基础配置
 spring:
-  # mysql 配置
-  datasource:
-  # 外网：rm-2ze8w9736lsaml6756o.mysql.rds.aliyuncs.com
-    url: jdbc:mysql://rm-2ze8w9736lsaml675.mysql.rds.aliyuncs.com:3306/business_registration?useUnicode=true&characterEncoding=utf8&useSSL=false&useAffectedRows=true&allowMultiQueries=true
-    driverClassName: com.mysql.jdbc.Driver
-    username: sqladmin
-    password: IqNKU3vTh2BKrDr
+
 
 
 
