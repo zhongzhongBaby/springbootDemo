@@ -1,19 +1,21 @@
 package com.example.demo;
-
-
-import com.example.demo.entity.RefundType;
+import com.baomidou.mybatisplus.extension.api.R;
+import com.example.demo.dao.StudentMapper;
+import com.example.demo.entity.Student;
+import com.example.demo.entity.request.RequestBase;
+import com.example.demo.enums.ReqSource;
 import com.example.demo.utils.CommonUtils;
 import org.junit.Test;
+import org.junit.runner.Request;
 
 import java.io.*;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.regex.Pattern;
 
 public final class MyTest {
-    AtomicInteger atomicInteger = new AtomicInteger();
 
+    AtomicInteger atomicInteger = new AtomicInteger();
     @Test
     public void test() {
         Scanner scanner = new Scanner(System.in);
@@ -160,9 +162,15 @@ public final class MyTest {
 
 
 
+    /** 
+    * @Description: 学校是否存在 
+    * @Param: []
+    * @Author: gengyuzhong
+    * @Date: 2020/12/19 
+    */ 
     @Test
     public void test6() {
-        String cityId = "1631";
+        String cityId = "1523";
         Scanner scanner = new Scanner(System.in);
         int i = 0;
         String result = "";
@@ -184,10 +192,15 @@ public final class MyTest {
     }
 
 
-
+    /** 
+    * @Description: 批量更新学生学校
+    * @Param: []
+    * @Author: gengyuzhong
+    * @Date: 2020/12/19 
+    */ 
     @Test
     public void test7() {
-        String cityId = "1539";
+        String cityId=  "1523";
         Scanner scanner = new Scanner(System.in);
         int i = 0;
         String result = "";
@@ -197,22 +210,37 @@ public final class MyTest {
             if (s.equals("end")) break;
             if (s.equals("")) continue;
             String[] haha = s.split("\t");
-            String fieldName = "";
+            String field = "old_attend_class_id";
             if(haha[3].equals("小学部")){
-                fieldName = "old_attend_class_id";
+                field = "old_attend_class_id";
             }
             if(haha[3].equals("初中部")){
-                fieldName = "old_attend_class_id_middle";
+                field = "old_attend_class_id_middle";
             }
             if(haha[3].equals("高中部")){
-                fieldName = "old_attend_class_id_high";
+                field = "old_attend_class_id_high";
             }
-            a.append("update student set "+fieldName+" = ifnull((select ps.id from public_school  ps left join city c on c.id = ps.city_id where school_name = '"+haha[4]+"' and FIND_IN_SET('"+cityId+"',c.parent_ids) limit 1 ),"+fieldName+")  where name = '"+haha[0]+"' and  no  = '"+haha[1].trim()+"';\n");
+            a.append("update student set "+field+" = ifnull((select ps.id from public_school  ps left join city c on c.id = ps.city_id where school_name = '"+haha[4]+"' and FIND_IN_SET('"+cityId+"',c.parent_ids) and ps.del_flag = FALSE  limit 1 ),"+field+") where name =  '"+haha[0]+"' and  no = '"+haha[1].trim()+"';\n");
             i++;
         }
         System.out.println(a);
         System.out.println(i);
     }
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
